@@ -1,0 +1,11 @@
+prefix=/workspaces/lang_chain_project/venv
+exec_prefix=/workspaces/lang_chain_project/venv
+libdir=/workspaces/lang_chain_project/venv/lib
+includedir=/workspaces/lang_chain_project/venv/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.38.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
